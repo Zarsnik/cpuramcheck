@@ -3,8 +3,6 @@ Description="Script that Warn about high CPU and RAM usage in logs"
 
 [Service]
 ExecStart="/usr/local/sbin/chkd.py"
-ExecStop="pkill chkd"
-Restart=always
 
 [Install]
 WantedBy=multi-user.target
