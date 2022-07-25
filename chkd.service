@@ -1,10 +1,10 @@
 [Unit]
-Description=Script that Warn about high CPU and RAM usage in logs
+Description="Script that Warn about high CPU and RAM usage in logs"
 
 [Service]
-ExecStart=/usr/local/sbin/chkd.py
-ExecStop=pkill chkd
-ExecRestart=pkill chkd && /usr/local/sbin/chkd.py
+ExecStart="/usr/local/sbin/chkd.py"
+ExecStop="pkill chkd"
+ExecRestart="pkill chkd && /usr/local/sbin/chkd.py"
 
 [Install]
 WantedBy=multi-user.target
