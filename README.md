@@ -3,7 +3,7 @@
 </p>
 <p>
 <h3>Description</h3>
-<p> Send warn in the log when CPU or RAM usage exceed $</p><br>
+<p> Warn in logs when CPU or RAM usage exceed $</p><br>
 <h3>Requierement</h3>
 <p> - Systemd, Python3 and root privileges</p><br>
 <h3>Install</h3>
