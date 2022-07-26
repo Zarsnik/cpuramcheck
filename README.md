@@ -1,5 +1,5 @@
 <p align="center">
-	<h2 align="center"> &pi;_cpu&amp;ram-mon<br><br> </h2>
+	<h2 align="center"> cpu&amp;ram-mon.&pi;<br><br> </h2>
 </p>
 <p>
 <h3>Requierement</h3>
